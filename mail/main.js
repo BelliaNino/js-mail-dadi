@@ -17,7 +17,7 @@ const mail_list = [
 //Chiedi all’utente la sua email,
 const type_mail = prompt(`Verify your email`)
 
-for (let i = 0; i < 12; i++){
+for (let i = 0; i < mail_list.length; i++){
     const mail = mail_list[i]
 
     //controlla che sia nella lista di chi può accedere,
